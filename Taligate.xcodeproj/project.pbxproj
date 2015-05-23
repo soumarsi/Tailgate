@@ -7,6 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C4F076E1AD7DD2B005FF1C6 /* GMDraggableMarkerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4F076D1AD7DD2B005FF1C6 /* GMDraggableMarkerManager.m */; };
+		2C562FCC1AF0B72600BADC62 /* UIFont+TGGlobalFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C562FCB1AF0B72600BADC62 /* UIFont+TGGlobalFont.m */; };
+		2C562FD11AF0BA5700BADC62 /* UIColor+TGGlobalColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C562FD01AF0BA5700BADC62 /* UIColor+TGGlobalColor.m */; };
+		2C562FD41AF0BC3000BADC62 /* UIImage+TGGlobalImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C562FD31AF0BC3000BADC62 /* UIImage+TGGlobalImage.m */; };
+		2C62E9811AE8BCFF00D6AABF /* TGGlobalClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C62E9801AE8BCFF00D6AABF /* TGGlobalClass.m */; };
+		2C6935931AC9178800F28450 /* TGBecons.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6935921AC9178800F28450 /* TGBecons.m */; };
+		2C69359B1AC97F4A00F28450 /* RTCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C69359A1AC97F4A00F28450 /* RTCanvas.m */; };
+		2C69359E1AC97F5900F28450 /* RTdrawline.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C69359D1AC97F5900F28450 /* RTdrawline.m */; };
+		2C6935B31AC97F8700F28450 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C6935A01AC97F8700F28450 /* InfoPlist.strings */; };
+		2C6935B41AC97F8700F28450 /* IQGeometry+AffineTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6935A31AC97F8700F28450 /* IQGeometry+AffineTransform.m */; };
+		2C6935B51AC97F8700F28450 /* IQGeometry+Angle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6935A51AC97F8700F28450 /* IQGeometry+Angle.m */; };
+		2C6935B61AC97F8700F28450 /* IQGeometry+Distance.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6935A71AC97F8700F28450 /* IQGeometry+Distance.m */; };
+		2C6935B71AC97F8700F28450 /* IQGeometry+Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6935A91AC97F8700F28450 /* IQGeometry+Line.m */; };
+		2C6935B81AC97F8700F28450 /* IQGeometry+Point.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6935AB1AC97F8700F28450 /* IQGeometry+Point.m */; };
+		2C6935B91AC97F8700F28450 /* IQGeometry+Rect.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6935AD1AC97F8700F28450 /* IQGeometry+Rect.m */; };
+		2C6935BA1AC97F8700F28450 /* IQGeometry+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6935AF1AC97F8700F28450 /* IQGeometry+Size.m */; };
+		2C6935BB1AC97F8700F28450 /* IQGeometry-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C6935B01AC97F8700F28450 /* IQGeometry-Info.plist */; };
+		2C6F12C31ADB7D5B00FD6140 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C6F12C21ADB7D5A00FD6140 /* Storyboard.storyboard */; };
+		2C6F12C61ADB7E6100FD6140 /* TGLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F12C51ADB7E6100FD6140 /* TGLoginViewController.m */; };
+		2C6F13101ADBC9F000FD6140 /* Raleway-Bold_0.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C6F13061ADBC9B900FD6140 /* Raleway-Bold_0.ttf */; };
+		2C6F13111ADBC9F000FD6140 /* Raleway-ExtraBold_0.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C6F13071ADBC9B900FD6140 /* Raleway-ExtraBold_0.ttf */; };
+		2C6F13121ADBC9F000FD6140 /* Raleway-ExtraLight_0.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C6F13081ADBC9B900FD6140 /* Raleway-ExtraLight_0.ttf */; };
+		2C6F13131ADBC9F000FD6140 /* Raleway-Heavy_0.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C6F13091ADBC9B900FD6140 /* Raleway-Heavy_0.ttf */; };
+		2C6F13141ADBC9F000FD6140 /* Raleway-Light_0.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C6F130A1ADBC9B900FD6140 /* Raleway-Light_0.ttf */; };
+		2C6F13151ADBC9F000FD6140 /* Raleway-Medium_0.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C6F130B1ADBC9B900FD6140 /* Raleway-Medium_0.ttf */; };
+		2C6F13161ADBC9F000FD6140 /* Raleway-Regular_0.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C6F130C1ADBC9B900FD6140 /* Raleway-Regular_0.ttf */; };
+		2C6F13171ADBC9F000FD6140 /* Raleway-SemiBold_0.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C6F130D1ADBC9B900FD6140 /* Raleway-SemiBold_0.ttf */; };
+		2C6F13181ADBC9F000FD6140 /* rock.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C6F130E1ADBC9B900FD6140 /* rock.ttf */; };
+		2C6F13191ADBC9F000FD6140 /* rockb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C6F130F1ADBC9B900FD6140 /* rockb.ttf */; };
+		2C6F131C1ADBDE9000FD6140 /* TGSelectVenueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F131B1ADBDE9000FD6140 /* TGSelectVenueViewController.m */; };
+		2C716D1C1AD4052C00099BD2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C716D1B1AD4052C00099BD2 /* MapKit.framework */; };
+		2C7F45A71AD792EC004C67C2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7F45A61AD792EC004C67C2 /* AVFoundation.framework */; };
+		2C7F45A91AD792FD004C67C2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7F45A81AD792FD004C67C2 /* CoreLocation.framework */; };
+		2C7F45AB1AD79301004C67C2 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7F45AA1AD79301004C67C2 /* CoreText.framework */; };
+		2C7F45AD1AD7930D004C67C2 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7F45AC1AD7930D004C67C2 /* GLKit.framework */; };
+		2C7F45AF1AD79323004C67C2 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7F45AE1AD79323004C67C2 /* libc++.dylib */; };
+		2C7F45B11AD79329004C67C2 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7F45B01AD79329004C67C2 /* ImageIO.framework */; };
+		2C7F45B31AD7933E004C67C2 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7F45B21AD7933E004C67C2 /* libicucore.dylib */; };
+		2C7F45B51AD79343004C67C2 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7F45B41AD79343004C67C2 /* libz.dylib */; };
+		2C7F45B81AD7935B004C67C2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7F45B61AD7935B004C67C2 /* OpenGLES.framework */; };
+		2C7F45B91AD7935B004C67C2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7F45B71AD7935B004C67C2 /* SystemConfiguration.framework */; };
+		2C7F45BB1AD79369004C67C2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7F45BA1AD79369004C67C2 /* QuartzCore.framework */; };
+		2C8306961AC537FD006D6FBF /* TGMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8306951AC537FD006D6FBF /* TGMapViewController.m */; };
+		2C8306991AC5855D006D6FBF /* TGMapEdit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8306981AC5855D006D6FBF /* TGMapEdit.m */; };
+		2C98271E1AD7978900C8794A /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C98271D1AD7978900C8794A /* GoogleMaps.framework */; };
+		2C98271F1AD797B000C8794A /* GoogleMaps.framework in Resources */ = {isa = PBXBuildFile; fileRef = 2C98271D1AD7978900C8794A /* GoogleMaps.framework */; };
+		2C9827211AD7983500C8794A /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2C9827201AD7983500C8794A /* GoogleMaps.bundle */; };
 		2CA48D351AC5378900F9D1A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA48D341AC5378900F9D1A6 /* Foundation.framework */; };
 		2CA48D371AC5378900F9D1A6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA48D361AC5378900F9D1A6 /* CoreGraphics.framework */; };
 		2CA48D391AC5378900F9D1A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA48D381AC5378900F9D1A6 /* UIKit.framework */; };
@@ -16,26 +63,81 @@
 		2CA48D471AC5378900F9D1A6 /* TGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA48D461AC5378900F9D1A6 /* TGAppDelegate.m */; };
 		2CA48D4A1AC5378900F9D1A6 /* Taligate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CA48D481AC5378900F9D1A6 /* Taligate.xcdatamodeld */; };
 		2CA48D4C1AC5378900F9D1A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CA48D4B1AC5378900F9D1A6 /* Images.xcassets */; };
-		2CA48D531AC5378900F9D1A6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA48D521AC5378900F9D1A6 /* XCTest.framework */; };
-		2CA48D541AC5378900F9D1A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA48D341AC5378900F9D1A6 /* Foundation.framework */; };
-		2CA48D551AC5378900F9D1A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA48D381AC5378900F9D1A6 /* UIKit.framework */; };
-		2CA48D561AC5378900F9D1A6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA48D3A1AC5378900F9D1A6 /* CoreData.framework */; };
-		2CA48D5E1AC5378900F9D1A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CA48D5C1AC5378900F9D1A6 /* InfoPlist.strings */; };
-		2CA48D601AC5378900F9D1A6 /* TaligateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA48D5F1AC5378900F9D1A6 /* TaligateTests.m */; };
+		2CADA34C1ACA832F005F6E61 /* TGimageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CADA34B1ACA832F005F6E61 /* TGimageViewController.m */; };
+		2CB1D4641ADCE1C80049759E /* TGForgotpasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB1D4631ADCE1C80049759E /* TGForgotpasswordViewController.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		2CA48D571AC5378900F9D1A6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2CA48D291AC5378900F9D1A6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2CA48D301AC5378900F9D1A6;
-			remoteInfo = Taligate;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		2CA48D311AC5378900F9D1A6 /* Taligate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taligate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C4F076B1AD7DD2B005FF1C6 /* GMDraggableMarkerManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMDraggableMarkerManagerDelegate.h; sourceTree = "<group>"; };
+		2C4F076C1AD7DD2B005FF1C6 /* GMDraggableMarkerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMDraggableMarkerManager.h; sourceTree = "<group>"; };
+		2C4F076D1AD7DD2B005FF1C6 /* GMDraggableMarkerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMDraggableMarkerManager.m; sourceTree = "<group>"; };
+		2C562FCA1AF0B72600BADC62 /* UIFont+TGGlobalFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+TGGlobalFont.h"; sourceTree = "<group>"; };
+		2C562FCB1AF0B72600BADC62 /* UIFont+TGGlobalFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+TGGlobalFont.m"; sourceTree = "<group>"; };
+		2C562FCF1AF0BA5700BADC62 /* UIColor+TGGlobalColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TGGlobalColor.h"; sourceTree = "<group>"; };
+		2C562FD01AF0BA5700BADC62 /* UIColor+TGGlobalColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TGGlobalColor.m"; sourceTree = "<group>"; };
+		2C562FD21AF0BC3000BADC62 /* UIImage+TGGlobalImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TGGlobalImage.h"; sourceTree = "<group>"; };
+		2C562FD31AF0BC3000BADC62 /* UIImage+TGGlobalImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TGGlobalImage.m"; sourceTree = "<group>"; };
+		2C62E97F1AE8BCFF00D6AABF /* TGGlobalClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGGlobalClass.h; sourceTree = "<group>"; };
+		2C62E9801AE8BCFF00D6AABF /* TGGlobalClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGGlobalClass.m; sourceTree = "<group>"; };
+		2C6935911AC9178800F28450 /* TGBecons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGBecons.h; sourceTree = "<group>"; };
+		2C6935921AC9178800F28450 /* TGBecons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGBecons.m; sourceTree = "<group>"; };
+		2C6935991AC97F4A00F28450 /* RTCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCanvas.h; sourceTree = "<group>"; };
+		2C69359A1AC97F4A00F28450 /* RTCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTCanvas.m; sourceTree = "<group>"; };
+		2C69359C1AC97F5900F28450 /* RTdrawline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTdrawline.h; sourceTree = "<group>"; };
+		2C69359D1AC97F5900F28450 /* RTdrawline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTdrawline.m; sourceTree = "<group>"; };
+		2C6935A11AC97F8700F28450 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2C6935A21AC97F8700F28450 /* IQGeometry+AffineTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQGeometry+AffineTransform.h"; sourceTree = "<group>"; };
+		2C6935A31AC97F8700F28450 /* IQGeometry+AffineTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQGeometry+AffineTransform.m"; sourceTree = "<group>"; };
+		2C6935A41AC97F8700F28450 /* IQGeometry+Angle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQGeometry+Angle.h"; sourceTree = "<group>"; };
+		2C6935A51AC97F8700F28450 /* IQGeometry+Angle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQGeometry+Angle.m"; sourceTree = "<group>"; };
+		2C6935A61AC97F8700F28450 /* IQGeometry+Distance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQGeometry+Distance.h"; sourceTree = "<group>"; };
+		2C6935A71AC97F8700F28450 /* IQGeometry+Distance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQGeometry+Distance.m"; sourceTree = "<group>"; };
+		2C6935A81AC97F8700F28450 /* IQGeometry+Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQGeometry+Line.h"; sourceTree = "<group>"; };
+		2C6935A91AC97F8700F28450 /* IQGeometry+Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQGeometry+Line.m"; sourceTree = "<group>"; };
+		2C6935AA1AC97F8700F28450 /* IQGeometry+Point.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQGeometry+Point.h"; sourceTree = "<group>"; };
+		2C6935AB1AC97F8700F28450 /* IQGeometry+Point.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQGeometry+Point.m"; sourceTree = "<group>"; };
+		2C6935AC1AC97F8700F28450 /* IQGeometry+Rect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQGeometry+Rect.h"; sourceTree = "<group>"; };
+		2C6935AD1AC97F8700F28450 /* IQGeometry+Rect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQGeometry+Rect.m"; sourceTree = "<group>"; };
+		2C6935AE1AC97F8700F28450 /* IQGeometry+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQGeometry+Size.h"; sourceTree = "<group>"; };
+		2C6935AF1AC97F8700F28450 /* IQGeometry+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQGeometry+Size.m"; sourceTree = "<group>"; };
+		2C6935B01AC97F8700F28450 /* IQGeometry-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "IQGeometry-Info.plist"; sourceTree = "<group>"; };
+		2C6935B11AC97F8700F28450 /* IQGeometry-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQGeometry-Prefix.pch"; sourceTree = "<group>"; };
+		2C6935B21AC97F8700F28450 /* IQGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQGeometry.h; sourceTree = "<group>"; };
+		2C6F12C21ADB7D5A00FD6140 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		2C6F12C41ADB7E6100FD6140 /* TGLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGLoginViewController.h; sourceTree = "<group>"; };
+		2C6F12C51ADB7E6100FD6140 /* TGLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGLoginViewController.m; sourceTree = "<group>"; };
+		2C6F13061ADBC9B900FD6140 /* Raleway-Bold_0.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold_0.ttf"; sourceTree = "<group>"; };
+		2C6F13071ADBC9B900FD6140 /* Raleway-ExtraBold_0.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraBold_0.ttf"; sourceTree = "<group>"; };
+		2C6F13081ADBC9B900FD6140 /* Raleway-ExtraLight_0.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraLight_0.ttf"; sourceTree = "<group>"; };
+		2C6F13091ADBC9B900FD6140 /* Raleway-Heavy_0.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Heavy_0.ttf"; sourceTree = "<group>"; };
+		2C6F130A1ADBC9B900FD6140 /* Raleway-Light_0.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light_0.ttf"; sourceTree = "<group>"; };
+		2C6F130B1ADBC9B900FD6140 /* Raleway-Medium_0.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Medium_0.ttf"; sourceTree = "<group>"; };
+		2C6F130C1ADBC9B900FD6140 /* Raleway-Regular_0.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular_0.ttf"; sourceTree = "<group>"; };
+		2C6F130D1ADBC9B900FD6140 /* Raleway-SemiBold_0.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold_0.ttf"; sourceTree = "<group>"; };
+		2C6F130E1ADBC9B900FD6140 /* rock.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = rock.ttf; sourceTree = "<group>"; };
+		2C6F130F1ADBC9B900FD6140 /* rockb.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = rockb.ttf; sourceTree = "<group>"; };
+		2C6F131A1ADBDE9000FD6140 /* TGSelectVenueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGSelectVenueViewController.h; sourceTree = "<group>"; };
+		2C6F131B1ADBDE9000FD6140 /* TGSelectVenueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGSelectVenueViewController.m; sourceTree = "<group>"; };
+		2C716D1B1AD4052C00099BD2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2C7F45A61AD792EC004C67C2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2C7F45A81AD792FD004C67C2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2C7F45AA1AD79301004C67C2 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		2C7F45AC1AD7930D004C67C2 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		2C7F45AE1AD79323004C67C2 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		2C7F45B01AD79329004C67C2 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		2C7F45B21AD7933E004C67C2 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		2C7F45B41AD79343004C67C2 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		2C7F45B61AD7935B004C67C2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		2C7F45B71AD7935B004C67C2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2C7F45BA1AD79369004C67C2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2C80EC451AE5022200D23EE9 /* TGGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGGlobal.h; sourceTree = "<group>"; };
+		2C8306941AC537FD006D6FBF /* TGMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TGMapViewController.h; path = ../TGMapViewController.h; sourceTree = "<group>"; };
+		2C8306951AC537FD006D6FBF /* TGMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TGMapViewController.m; path = ../TGMapViewController.m; sourceTree = "<group>"; };
+		2C8306971AC5855D006D6FBF /* TGMapEdit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMapEdit.h; sourceTree = "<group>"; };
+		2C8306981AC5855D006D6FBF /* TGMapEdit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGMapEdit.m; sourceTree = "<group>"; };
+		2C98271D1AD7978900C8794A /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = "../../Downloads/GoogleMaps-iOS-1.9.2/GoogleMaps.framework"; sourceTree = "<group>"; };
+		2C9827201AD7983500C8794A /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMaps.bundle; sourceTree = "<group>"; };
+		2CA48D311AC5378900F9D1A6 /* Tailgate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tailgate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA48D341AC5378900F9D1A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2CA48D361AC5378900F9D1A6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2CA48D381AC5378900F9D1A6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -48,11 +150,14 @@
 		2CA48D461AC5378900F9D1A6 /* TGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGAppDelegate.m; sourceTree = "<group>"; };
 		2CA48D491AC5378900F9D1A6 /* Taligate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Taligate.xcdatamodel; sourceTree = "<group>"; };
 		2CA48D4B1AC5378900F9D1A6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		2CA48D511AC5378900F9D1A6 /* TaligateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaligateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA48D521AC5378900F9D1A6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		2CA48D5B1AC5378900F9D1A6 /* TaligateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TaligateTests-Info.plist"; sourceTree = "<group>"; };
 		2CA48D5D1AC5378900F9D1A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2CA48D5F1AC5378900F9D1A6 /* TaligateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaligateTests.m; sourceTree = "<group>"; };
+		2CADA34A1ACA832F005F6E61 /* TGimageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGimageViewController.h; sourceTree = "<group>"; };
+		2CADA34B1ACA832F005F6E61 /* TGimageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGimageViewController.m; sourceTree = "<group>"; };
+		2CB1D4621ADCE1C80049759E /* TGForgotpasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGForgotpasswordViewController.h; sourceTree = "<group>"; };
+		2CB1D4631ADCE1C80049759E /* TGForgotpasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGForgotpasswordViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +165,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C98271E1AD7978900C8794A /* GoogleMaps.framework in Frameworks */,
+				2C7F45BB1AD79369004C67C2 /* QuartzCore.framework in Frameworks */,
+				2C7F45B81AD7935B004C67C2 /* OpenGLES.framework in Frameworks */,
+				2C7F45B91AD7935B004C67C2 /* SystemConfiguration.framework in Frameworks */,
+				2C7F45B51AD79343004C67C2 /* libz.dylib in Frameworks */,
+				2C7F45B31AD7933E004C67C2 /* libicucore.dylib in Frameworks */,
+				2C7F45B11AD79329004C67C2 /* ImageIO.framework in Frameworks */,
+				2C7F45AF1AD79323004C67C2 /* libc++.dylib in Frameworks */,
+				2C7F45AD1AD7930D004C67C2 /* GLKit.framework in Frameworks */,
+				2C7F45AB1AD79301004C67C2 /* CoreText.framework in Frameworks */,
+				2C7F45A91AD792FD004C67C2 /* CoreLocation.framework in Frameworks */,
+				2C7F45A71AD792EC004C67C2 /* AVFoundation.framework in Frameworks */,
+				2C716D1C1AD4052C00099BD2 /* MapKit.framework in Frameworks */,
 				2CA48D371AC5378900F9D1A6 /* CoreGraphics.framework in Frameworks */,
 				2CA48D3B1AC5378900F9D1A6 /* CoreData.framework in Frameworks */,
 				2CA48D391AC5378900F9D1A6 /* UIKit.framework in Frameworks */,
@@ -67,23 +185,128 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2CA48D4E1AC5378900F9D1A6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2CA48D531AC5378900F9D1A6 /* XCTest.framework in Frameworks */,
-				2CA48D561AC5378900F9D1A6 /* CoreData.framework in Frameworks */,
-				2CA48D551AC5378900F9D1A6 /* UIKit.framework in Frameworks */,
-				2CA48D541AC5378900F9D1A6 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C4F076A1AD7DD1A005FF1C6 /* DraggableMarkerManager */ = {
+			isa = PBXGroup;
+			children = (
+				2C4F076B1AD7DD2B005FF1C6 /* GMDraggableMarkerManagerDelegate.h */,
+				2C4F076C1AD7DD2B005FF1C6 /* GMDraggableMarkerManager.h */,
+				2C4F076D1AD7DD2B005FF1C6 /* GMDraggableMarkerManager.m */,
+			);
+			name = DraggableMarkerManager;
+			sourceTree = "<group>";
+		};
+		2C69359F1AC97F8700F28450 /* IQGeometry */ = {
+			isa = PBXGroup;
+			children = (
+				2C6935A01AC97F8700F28450 /* InfoPlist.strings */,
+				2C6935A21AC97F8700F28450 /* IQGeometry+AffineTransform.h */,
+				2C6935A31AC97F8700F28450 /* IQGeometry+AffineTransform.m */,
+				2C6935A41AC97F8700F28450 /* IQGeometry+Angle.h */,
+				2C6935A51AC97F8700F28450 /* IQGeometry+Angle.m */,
+				2C6935A61AC97F8700F28450 /* IQGeometry+Distance.h */,
+				2C6935A71AC97F8700F28450 /* IQGeometry+Distance.m */,
+				2C6935A81AC97F8700F28450 /* IQGeometry+Line.h */,
+				2C6935A91AC97F8700F28450 /* IQGeometry+Line.m */,
+				2C6935AA1AC97F8700F28450 /* IQGeometry+Point.h */,
+				2C6935AB1AC97F8700F28450 /* IQGeometry+Point.m */,
+				2C6935AC1AC97F8700F28450 /* IQGeometry+Rect.h */,
+				2C6935AD1AC97F8700F28450 /* IQGeometry+Rect.m */,
+				2C6935AE1AC97F8700F28450 /* IQGeometry+Size.h */,
+				2C6935AF1AC97F8700F28450 /* IQGeometry+Size.m */,
+				2C6935B01AC97F8700F28450 /* IQGeometry-Info.plist */,
+				2C6935B11AC97F8700F28450 /* IQGeometry-Prefix.pch */,
+				2C6935B21AC97F8700F28450 /* IQGeometry.h */,
+			);
+			path = IQGeometry;
+			sourceTree = "<group>";
+		};
+		2C6F13051ADBC9AA00FD6140 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				2C6F13061ADBC9B900FD6140 /* Raleway-Bold_0.ttf */,
+				2C6F13071ADBC9B900FD6140 /* Raleway-ExtraBold_0.ttf */,
+				2C6F13081ADBC9B900FD6140 /* Raleway-ExtraLight_0.ttf */,
+				2C6F13091ADBC9B900FD6140 /* Raleway-Heavy_0.ttf */,
+				2C6F130A1ADBC9B900FD6140 /* Raleway-Light_0.ttf */,
+				2C6F130B1ADBC9B900FD6140 /* Raleway-Medium_0.ttf */,
+				2C6F130C1ADBC9B900FD6140 /* Raleway-Regular_0.ttf */,
+				2C6F130D1ADBC9B900FD6140 /* Raleway-SemiBold_0.ttf */,
+				2C6F130E1ADBC9B900FD6140 /* rock.ttf */,
+				2C6F130F1ADBC9B900FD6140 /* rockb.ttf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		2C73298C1B006A1700DF78CB /* Viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				2C6F12C41ADB7E6100FD6140 /* TGLoginViewController.h */,
+				2C6F12C51ADB7E6100FD6140 /* TGLoginViewController.m */,
+				2CB1D4621ADCE1C80049759E /* TGForgotpasswordViewController.h */,
+				2CB1D4631ADCE1C80049759E /* TGForgotpasswordViewController.m */,
+				2C6F131A1ADBDE9000FD6140 /* TGSelectVenueViewController.h */,
+				2C6F131B1ADBDE9000FD6140 /* TGSelectVenueViewController.m */,
+				2C8306941AC537FD006D6FBF /* TGMapViewController.h */,
+				2C8306951AC537FD006D6FBF /* TGMapViewController.m */,
+			);
+			name = Viewcontroller;
+			sourceTree = "<group>";
+		};
+		2C73298D1B006A3300DF78CB /* views */ = {
+			isa = PBXGroup;
+			children = (
+				2C8306971AC5855D006D6FBF /* TGMapEdit.h */,
+				2C8306981AC5855D006D6FBF /* TGMapEdit.m */,
+				2C6935911AC9178800F28450 /* TGBecons.h */,
+				2C6935921AC9178800F28450 /* TGBecons.m */,
+				2C6935991AC97F4A00F28450 /* RTCanvas.h */,
+				2C69359A1AC97F4A00F28450 /* RTCanvas.m */,
+				2C69359C1AC97F5900F28450 /* RTdrawline.h */,
+				2C69359D1AC97F5900F28450 /* RTdrawline.m */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		2C73298E1B006A6600DF78CB /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				2C80EC451AE5022200D23EE9 /* TGGlobal.h */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+		2C73298F1B006A8700DF78CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C62E97F1AE8BCFF00D6AABF /* TGGlobalClass.h */,
+				2C62E9801AE8BCFF00D6AABF /* TGGlobalClass.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2C7329901B006A9700DF78CB /* category */ = {
+			isa = PBXGroup;
+			children = (
+				2C562FCA1AF0B72600BADC62 /* UIFont+TGGlobalFont.h */,
+				2C562FCB1AF0B72600BADC62 /* UIFont+TGGlobalFont.m */,
+				2C562FCF1AF0BA5700BADC62 /* UIColor+TGGlobalColor.h */,
+				2C562FD01AF0BA5700BADC62 /* UIColor+TGGlobalColor.m */,
+				2C562FD21AF0BC3000BADC62 /* UIImage+TGGlobalImage.h */,
+				2C562FD31AF0BC3000BADC62 /* UIImage+TGGlobalImage.m */,
+			);
+			name = category;
+			sourceTree = "<group>";
+		};
 		2CA48D281AC5378900F9D1A6 = {
 			isa = PBXGroup;
 			children = (
+				2C6F13051ADBC9AA00FD6140 /* Font */,
+				2C6F12C21ADB7D5A00FD6140 /* Storyboard.storyboard */,
+				2C4F076A1AD7DD1A005FF1C6 /* DraggableMarkerManager */,
+				2C69359F1AC97F8700F28450 /* IQGeometry */,
 				2CA48D3C1AC5378900F9D1A6 /* Taligate */,
 				2CA48D591AC5378900F9D1A6 /* TaligateTests */,
 				2CA48D331AC5378900F9D1A6 /* Frameworks */,
@@ -94,8 +317,7 @@
 		2CA48D321AC5378900F9D1A6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2CA48D311AC5378900F9D1A6 /* Taligate.app */,
-				2CA48D511AC5378900F9D1A6 /* TaligateTests.xctest */,
+				2CA48D311AC5378900F9D1A6 /* Tailgate.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +325,20 @@
 		2CA48D331AC5378900F9D1A6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2C9827201AD7983500C8794A /* GoogleMaps.bundle */,
+				2C98271D1AD7978900C8794A /* GoogleMaps.framework */,
+				2C7F45BA1AD79369004C67C2 /* QuartzCore.framework */,
+				2C7F45B61AD7935B004C67C2 /* OpenGLES.framework */,
+				2C7F45B71AD7935B004C67C2 /* SystemConfiguration.framework */,
+				2C7F45B41AD79343004C67C2 /* libz.dylib */,
+				2C7F45B21AD7933E004C67C2 /* libicucore.dylib */,
+				2C7F45B01AD79329004C67C2 /* ImageIO.framework */,
+				2C7F45AE1AD79323004C67C2 /* libc++.dylib */,
+				2C7F45AC1AD7930D004C67C2 /* GLKit.framework */,
+				2C7F45AA1AD79301004C67C2 /* CoreText.framework */,
+				2C7F45A81AD792FD004C67C2 /* CoreLocation.framework */,
+				2C7F45A61AD792EC004C67C2 /* AVFoundation.framework */,
+				2C716D1B1AD4052C00099BD2 /* MapKit.framework */,
 				2CA48D341AC5378900F9D1A6 /* Foundation.framework */,
 				2CA48D361AC5378900F9D1A6 /* CoreGraphics.framework */,
 				2CA48D381AC5378900F9D1A6 /* UIKit.framework */,
@@ -115,8 +351,15 @@
 		2CA48D3C1AC5378900F9D1A6 /* Taligate */ = {
 			isa = PBXGroup;
 			children = (
+				2C7329901B006A9700DF78CB /* category */,
+				2C73298F1B006A8700DF78CB /* Model */,
+				2C73298E1B006A6600DF78CB /* Protocol */,
+				2C73298D1B006A3300DF78CB /* views */,
+				2C73298C1B006A1700DF78CB /* Viewcontroller */,
 				2CA48D451AC5378900F9D1A6 /* TGAppDelegate.h */,
 				2CA48D461AC5378900F9D1A6 /* TGAppDelegate.m */,
+				2CADA34A1ACA832F005F6E61 /* TGimageViewController.h */,
+				2CADA34B1ACA832F005F6E61 /* TGimageViewController.m */,
 				2CA48D4B1AC5378900F9D1A6 /* Images.xcassets */,
 				2CA48D481AC5378900F9D1A6 /* Taligate.xcdatamodeld */,
 				2CA48D3D1AC5378900F9D1A6 /* Supporting Files */,
@@ -170,26 +413,8 @@
 			);
 			name = Taligate;
 			productName = Taligate;
-			productReference = 2CA48D311AC5378900F9D1A6 /* Taligate.app */;
+			productReference = 2CA48D311AC5378900F9D1A6 /* Tailgate.app */;
 			productType = "com.apple.product-type.application";
-		};
-		2CA48D501AC5378900F9D1A6 /* TaligateTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2CA48D661AC5378900F9D1A6 /* Build configuration list for PBXNativeTarget "TaligateTests" */;
-			buildPhases = (
-				2CA48D4D1AC5378900F9D1A6 /* Sources */,
-				2CA48D4E1AC5378900F9D1A6 /* Frameworks */,
-				2CA48D4F1AC5378900F9D1A6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2CA48D581AC5378900F9D1A6 /* PBXTargetDependency */,
-			);
-			name = TaligateTests;
-			productName = TaligateTests;
-			productReference = 2CA48D511AC5378900F9D1A6 /* TaligateTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -198,13 +423,8 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = TG;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = esolz;
-				TargetAttributes = {
-					2CA48D501AC5378900F9D1A6 = {
-						TestTargetID = 2CA48D301AC5378900F9D1A6;
-					};
-				};
 			};
 			buildConfigurationList = 2CA48D2C1AC5378900F9D1A6 /* Build configuration list for PBXProject "Taligate" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -219,7 +439,6 @@
 			projectRoot = "";
 			targets = (
 				2CA48D301AC5378900F9D1A6 /* Taligate */,
-				2CA48D501AC5378900F9D1A6 /* TaligateTests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,16 +448,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C6F13101ADBC9F000FD6140 /* Raleway-Bold_0.ttf in Resources */,
+				2C6F13111ADBC9F000FD6140 /* Raleway-ExtraBold_0.ttf in Resources */,
+				2C6F13121ADBC9F000FD6140 /* Raleway-ExtraLight_0.ttf in Resources */,
+				2C6F13131ADBC9F000FD6140 /* Raleway-Heavy_0.ttf in Resources */,
+				2C6F13141ADBC9F000FD6140 /* Raleway-Light_0.ttf in Resources */,
+				2C6F13151ADBC9F000FD6140 /* Raleway-Medium_0.ttf in Resources */,
+				2C6F13161ADBC9F000FD6140 /* Raleway-Regular_0.ttf in Resources */,
+				2C6F13171ADBC9F000FD6140 /* Raleway-SemiBold_0.ttf in Resources */,
+				2C6F13181ADBC9F000FD6140 /* rock.ttf in Resources */,
+				2C6F13191ADBC9F000FD6140 /* rockb.ttf in Resources */,
+				2C98271F1AD797B000C8794A /* GoogleMaps.framework in Resources */,
 				2CA48D411AC5378900F9D1A6 /* InfoPlist.strings in Resources */,
+				2C6935B31AC97F8700F28450 /* InfoPlist.strings in Resources */,
+				2C9827211AD7983500C8794A /* GoogleMaps.bundle in Resources */,
+				2C6935BB1AC97F8700F28450 /* IQGeometry-Info.plist in Resources */,
+				2C6F12C31ADB7D5B00FD6140 /* Storyboard.storyboard in Resources */,
 				2CA48D4C1AC5378900F9D1A6 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2CA48D4F1AC5378900F9D1A6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2CA48D5E1AC5378900F9D1A6 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,31 +475,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C6935BA1AC97F8700F28450 /* IQGeometry+Size.m in Sources */,
+				2C8306961AC537FD006D6FBF /* TGMapViewController.m in Sources */,
+				2C6935B41AC97F8700F28450 /* IQGeometry+AffineTransform.m in Sources */,
+				2C6935B61AC97F8700F28450 /* IQGeometry+Distance.m in Sources */,
+				2C62E9811AE8BCFF00D6AABF /* TGGlobalClass.m in Sources */,
+				2C562FD41AF0BC3000BADC62 /* UIImage+TGGlobalImage.m in Sources */,
 				2CA48D431AC5378900F9D1A6 /* main.m in Sources */,
+				2C6935B51AC97F8700F28450 /* IQGeometry+Angle.m in Sources */,
+				2C69359B1AC97F4A00F28450 /* RTCanvas.m in Sources */,
+				2C6F131C1ADBDE9000FD6140 /* TGSelectVenueViewController.m in Sources */,
+				2C69359E1AC97F5900F28450 /* RTdrawline.m in Sources */,
+				2C6935931AC9178800F28450 /* TGBecons.m in Sources */,
 				2CA48D4A1AC5378900F9D1A6 /* Taligate.xcdatamodeld in Sources */,
+				2C6935B91AC97F8700F28450 /* IQGeometry+Rect.m in Sources */,
+				2C562FCC1AF0B72600BADC62 /* UIFont+TGGlobalFont.m in Sources */,
+				2C6F12C61ADB7E6100FD6140 /* TGLoginViewController.m in Sources */,
+				2C6935B71AC97F8700F28450 /* IQGeometry+Line.m in Sources */,
+				2CB1D4641ADCE1C80049759E /* TGForgotpasswordViewController.m in Sources */,
+				2C562FD11AF0BA5700BADC62 /* UIColor+TGGlobalColor.m in Sources */,
+				2C4F076E1AD7DD2B005FF1C6 /* GMDraggableMarkerManager.m in Sources */,
+				2C8306991AC5855D006D6FBF /* TGMapEdit.m in Sources */,
+				2C6935B81AC97F8700F28450 /* IQGeometry+Point.m in Sources */,
 				2CA48D471AC5378900F9D1A6 /* TGAppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2CA48D4D1AC5378900F9D1A6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2CA48D601AC5378900F9D1A6 /* TaligateTests.m in Sources */,
+				2CADA34C1ACA832F005F6E61 /* TGimageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		2CA48D581AC5378900F9D1A6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2CA48D301AC5378900F9D1A6 /* Taligate */;
-			targetProxy = 2CA48D571AC5378900F9D1A6 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
+		2C6935A01AC97F8700F28450 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C6935A11AC97F8700F28450 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		2CA48D3F1AC5378900F9D1A6 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +536,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -337,7 +575,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -372,10 +609,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/maxcon9/Downloads,
+					"/Users/maxcon9/Downloads/GoogleMaps-iOS-1.9.2",
+					"/Users/maxcon4/Downloads/GoogleMaps-iOS-1.9.2",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Taligate/Taligate-Prefix.pch";
 				INFOPLIST_FILE = "Taligate/Taligate-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = Tailgate;
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -385,53 +632,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/maxcon9/Downloads,
+					"/Users/maxcon9/Downloads/GoogleMaps-iOS-1.9.2",
+					"/Users/maxcon4/Downloads/GoogleMaps-iOS-1.9.2",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Taligate/Taligate-Prefix.pch";
 				INFOPLIST_FILE = "Taligate/Taligate-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = Tailgate;
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		2CA48D671AC5378900F9D1A6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Taligate.app/Taligate";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Taligate/Taligate-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "TaligateTests/TaligateTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		2CA48D681AC5378900F9D1A6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Taligate.app/Taligate";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Taligate/Taligate-Prefix.pch";
-				INFOPLIST_FILE = "TaligateTests/TaligateTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -454,14 +669,7 @@
 				2CA48D651AC5378900F9D1A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		2CA48D661AC5378900F9D1A6 /* Build configuration list for PBXNativeTarget "TaligateTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2CA48D671AC5378900F9D1A6 /* Debug */,
-				2CA48D681AC5378900F9D1A6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

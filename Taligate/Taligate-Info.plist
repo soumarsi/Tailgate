@@ -2,6 +2,27 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string></string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string></string>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Raleway-Bold_0.ttf</string>
+		<string>Raleway-ExtraBold_0.ttf</string>
+		<string>Raleway-ExtraLight_0.ttf</string>
+		<string>Raleway-Heavy_0.ttf</string>
+		<string>Raleway-Light_0.ttf</string>
+		<string>Raleway-Medium_0.ttf</string>
+		<string>Raleway-Regular_0.ttf</string>
+		<string>Raleway-SemiBold_0.ttf</string>
+		<string>rock.ttf</string>
+		<string>rockb.ttf</string>
+	</array>
+	<key>UIMainStoryboardFile</key>
+	<string>Storyboard</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -30,8 +51,6 @@
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
-		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>

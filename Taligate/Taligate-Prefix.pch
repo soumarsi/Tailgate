@@ -15,3 +15,34 @@
     #import <Foundation/Foundation.h>
     #import <CoreData/CoreData.h>
 #endif
+
+#import "UIFont+TGGlobalFont.h"
+#import "UIColor+TGGlobalColor.h"
+#import "UIImage+TGGlobalImage.h"
+#import "TGLoginViewController.h"
+#import "TGForgotpasswordViewController.h"
+#import "TGSelectVenueViewController.h"
+#import "TGMapViewController.h"
+#import "TGMapEdit.h"
+#import "TGAppDelegate.h"
+
+
+#define RGBCOLOR(x,y,z,f) [UIColor colorWithRed:(x/255.0f) green:(y/255.0f) blue:(z/255.0f) alpha:f]
+#define App_Domain_Url @"http://esolz.co.in/lab6/tailgate/web_service/"
+#define check_internet @"please check your internet connection"
+#define check_internet_title @"sorry!"
+#define Ok @"OK"
+#define check_username @"Please enter valid username"
+#define check_password @"Please enter valid password"
+#define success @"success"
+#define Login_Failed @"invalid login credentials"
+
+#ifdef DEBUG
+
+#define DebugLog(...) NSLog(__VA_ARGS__)
+
+#else
+
+#define DebugLog(...) while(0)
+
+#endif

@@ -7,7 +7,10 @@
 //
 
 #import "TGAppDelegate.h"
-
+#import "TGMapViewController.h"
+#import <GoogleMaps/GoogleMaps.h>
+#import "TGLoginViewController.h"
+#import "TGSelectVenueViewController.h"
 @implementation TGAppDelegate
 
 @synthesize managedObjectContext = _managedObjectContext;
@@ -16,10 +19,28 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    //self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+   // self.window.backgroundColor = [UIColor whiteColor];
+    
+//    DebugLog(@"logout---- %@", [[NSUserDefaults standardUserDefaults]objectForKey:@"Logout"]);
+//    
+//    if ([[[NSUserDefaults standardUserDefaults]objectForKey:@"Logout"] isEqualToString:@"YES"])
+//    {
+//        TGSelectVenueViewController *View = [[TGSelectVenueViewController alloc] init];
+//        [self.navigationController pushViewController:View animated:YES];
+//    }
+//    else
+//    {
+//        TGLoginViewController *View = [[TGLoginViewController alloc] init];
+//        [self.navigationController pushViewController:View animated:YES];
+//    }
+//    self.navigationController.navigationBar.hidden= YES;
+//    [self.window makeKeyAndVisible];
+
+  
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    [GMSServices provideAPIKey:@"AIzaSyDF0Sl8FZFPzyLO3yCrhaFwwzf7wwPmX5o"];
     return YES;
 }
 
