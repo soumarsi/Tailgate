@@ -165,16 +165,7 @@
 
 //    [self.view addSubview:locationTableview];
     
-//    searchtableview = [[UITableView alloc]initWithFrame:CGRectMake(40, 70, 350, 150)];
-//    searchtableview.delegate=self;
-//    searchtableview.dataSource=self;
-//    searchtableview.layer.borderWidth = 1.0f;
-//    searchtableview.layer.borderColor = [[UIColor grayColor]CGColor];
-//    searchtableview.separatorStyle=UITableViewCellSeparatorStyleSingleLine;
-//    searchtableview.backgroundColor=[UIColor clearColor];
-//    searchtableview.showsVerticalScrollIndicator = NO;
-//    [BackGroundView addSubview:searchtableview];
-//    [searchtableview setHidden:YES];
+
     
     //HeaderLabel--=======
     
@@ -284,7 +275,6 @@
                     break;
             }
             marker.map = mapView_;
-            
         }
     }
     DebugLog(@"MAP PIN COORDINATE--------> %@",sampleMarkerLocations);
@@ -778,9 +768,7 @@
                 [EditView addSubview:locationTableview];
                 DebugLog(@"AKKKKKKKKKK------------> %@",savedLocationArray);
                 
-                
-                
-                //                descString = [NSString stringWithFormat:@"Package name: %@ \nPackage price: %@",[[savedLocationArray objectAtIndex:data] objectForKey:@"package_name"],[[savedLocationArray objectAtIndex:data] objectForKey:@"package_price"]];
+
                 
             }
         }];
