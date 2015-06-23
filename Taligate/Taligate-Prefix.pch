@@ -25,10 +25,10 @@
 #import "TGMapViewController.h"
 #import "TGMapEdit.h"
 #import "TGAppDelegate.h"
-
+#import "TGMapSave.h"
 
 #define RGBCOLOR(x,y,z,f) [UIColor colorWithRed:(x/255.0f) green:(y/255.0f) blue:(z/255.0f) alpha:f]
-#define App_Domain_Url @"http://esolz.co.in/lab6/tailgate/web_service/"
+#define App_Domain_Url @"http://www.esolz.co.in/lab6/tailgate/web_service/"
 #define check_internet @"please check your internet connection"
 #define check_internet_title @"sorry!"
 #define Ok @"OK"
@@ -36,6 +36,8 @@
 #define check_password @"Please enter valid password"
 #define success @"success"
 #define Login_Failed @"invalid login credentials"
+#define Norecordfound @"No record found"
+#define Noorderfound @"order not found"
 
 #ifdef DEBUG
 

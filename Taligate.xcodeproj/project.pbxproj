@@ -51,8 +51,6 @@
 		2C7F45BB1AD79369004C67C2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7F45BA1AD79369004C67C2 /* QuartzCore.framework */; };
 		2C8306961AC537FD006D6FBF /* TGMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8306951AC537FD006D6FBF /* TGMapViewController.m */; };
 		2C8306991AC5855D006D6FBF /* TGMapEdit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8306981AC5855D006D6FBF /* TGMapEdit.m */; };
-		2C98271E1AD7978900C8794A /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C98271D1AD7978900C8794A /* GoogleMaps.framework */; };
-		2C98271F1AD797B000C8794A /* GoogleMaps.framework in Resources */ = {isa = PBXBuildFile; fileRef = 2C98271D1AD7978900C8794A /* GoogleMaps.framework */; };
 		2C9827211AD7983500C8794A /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2C9827201AD7983500C8794A /* GoogleMaps.bundle */; };
 		2CA48D351AC5378900F9D1A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA48D341AC5378900F9D1A6 /* Foundation.framework */; };
 		2CA48D371AC5378900F9D1A6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA48D361AC5378900F9D1A6 /* CoreGraphics.framework */; };
@@ -63,8 +61,10 @@
 		2CA48D471AC5378900F9D1A6 /* TGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA48D461AC5378900F9D1A6 /* TGAppDelegate.m */; };
 		2CA48D4A1AC5378900F9D1A6 /* Taligate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CA48D481AC5378900F9D1A6 /* Taligate.xcdatamodeld */; };
 		2CA48D4C1AC5378900F9D1A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CA48D4B1AC5378900F9D1A6 /* Images.xcassets */; };
+		2CA547721B2C09CF00F71C1F /* TGMapSave.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA547711B2C09CF00F71C1F /* TGMapSave.m */; };
 		2CADA34C1ACA832F005F6E61 /* TGimageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CADA34B1ACA832F005F6E61 /* TGimageViewController.m */; };
 		2CB1D4641ADCE1C80049759E /* TGForgotpasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB1D4631ADCE1C80049759E /* TGForgotpasswordViewController.m */; };
+		BE2FA46B1B26C6E9006C3673 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE2FA46A1B26C6E9006C3673 /* GoogleMaps.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -135,7 +135,6 @@
 		2C8306951AC537FD006D6FBF /* TGMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TGMapViewController.m; path = ../TGMapViewController.m; sourceTree = "<group>"; };
 		2C8306971AC5855D006D6FBF /* TGMapEdit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMapEdit.h; sourceTree = "<group>"; };
 		2C8306981AC5855D006D6FBF /* TGMapEdit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGMapEdit.m; sourceTree = "<group>"; };
-		2C98271D1AD7978900C8794A /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = "../../Downloads/GoogleMaps-iOS-1.9.2/GoogleMaps.framework"; sourceTree = "<group>"; };
 		2C9827201AD7983500C8794A /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMaps.bundle; sourceTree = "<group>"; };
 		2CA48D311AC5378900F9D1A6 /* Tailgate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tailgate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA48D341AC5378900F9D1A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -154,10 +153,13 @@
 		2CA48D5B1AC5378900F9D1A6 /* TaligateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TaligateTests-Info.plist"; sourceTree = "<group>"; };
 		2CA48D5D1AC5378900F9D1A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2CA48D5F1AC5378900F9D1A6 /* TaligateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaligateTests.m; sourceTree = "<group>"; };
+		2CA547701B2C09CF00F71C1F /* TGMapSave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMapSave.h; sourceTree = "<group>"; };
+		2CA547711B2C09CF00F71C1F /* TGMapSave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGMapSave.m; sourceTree = "<group>"; };
 		2CADA34A1ACA832F005F6E61 /* TGimageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGimageViewController.h; sourceTree = "<group>"; };
 		2CADA34B1ACA832F005F6E61 /* TGimageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGimageViewController.m; sourceTree = "<group>"; };
 		2CB1D4621ADCE1C80049759E /* TGForgotpasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGForgotpasswordViewController.h; sourceTree = "<group>"; };
 		2CB1D4631ADCE1C80049759E /* TGForgotpasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGForgotpasswordViewController.m; sourceTree = "<group>"; };
+		BE2FA46A1B26C6E9006C3673 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,7 +167,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C98271E1AD7978900C8794A /* GoogleMaps.framework in Frameworks */,
+				BE2FA46B1B26C6E9006C3673 /* GoogleMaps.framework in Frameworks */,
 				2C7F45BB1AD79369004C67C2 /* QuartzCore.framework in Frameworks */,
 				2C7F45B81AD7935B004C67C2 /* OpenGLES.framework in Frameworks */,
 				2C7F45B91AD7935B004C67C2 /* SystemConfiguration.framework in Frameworks */,
@@ -266,6 +268,8 @@
 				2C69359A1AC97F4A00F28450 /* RTCanvas.m */,
 				2C69359C1AC97F5900F28450 /* RTdrawline.h */,
 				2C69359D1AC97F5900F28450 /* RTdrawline.m */,
+				2CA547701B2C09CF00F71C1F /* TGMapSave.h */,
+				2CA547711B2C09CF00F71C1F /* TGMapSave.m */,
 			);
 			name = views;
 			sourceTree = "<group>";
@@ -325,8 +329,8 @@
 		2CA48D331AC5378900F9D1A6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BE2FA46A1B26C6E9006C3673 /* GoogleMaps.framework */,
 				2C9827201AD7983500C8794A /* GoogleMaps.bundle */,
-				2C98271D1AD7978900C8794A /* GoogleMaps.framework */,
 				2C7F45BA1AD79369004C67C2 /* QuartzCore.framework */,
 				2C7F45B61AD7935B004C67C2 /* OpenGLES.framework */,
 				2C7F45B71AD7935B004C67C2 /* SystemConfiguration.framework */,
@@ -458,7 +462,6 @@
 				2C6F13171ADBC9F000FD6140 /* Raleway-SemiBold_0.ttf in Resources */,
 				2C6F13181ADBC9F000FD6140 /* rock.ttf in Resources */,
 				2C6F13191ADBC9F000FD6140 /* rockb.ttf in Resources */,
-				2C98271F1AD797B000C8794A /* GoogleMaps.framework in Resources */,
 				2CA48D411AC5378900F9D1A6 /* InfoPlist.strings in Resources */,
 				2C6935B31AC97F8700F28450 /* InfoPlist.strings in Resources */,
 				2C9827211AD7983500C8794A /* GoogleMaps.bundle in Resources */,
@@ -484,6 +487,7 @@
 				2CA48D431AC5378900F9D1A6 /* main.m in Sources */,
 				2C6935B51AC97F8700F28450 /* IQGeometry+Angle.m in Sources */,
 				2C69359B1AC97F4A00F28450 /* RTCanvas.m in Sources */,
+				2CA547721B2C09CF00F71C1F /* TGMapSave.m in Sources */,
 				2C6F131C1ADBDE9000FD6140 /* TGSelectVenueViewController.m in Sources */,
 				2C69359E1AC97F5900F28450 /* RTdrawline.m in Sources */,
 				2C6935931AC9178800F28450 /* TGBecons.m in Sources */,
@@ -615,6 +619,7 @@
 					/Users/maxcon9/Downloads,
 					"/Users/maxcon9/Downloads/GoogleMaps-iOS-1.9.2",
 					"/Users/maxcon4/Downloads/GoogleMaps-iOS-1.9.2",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Taligate/Taligate-Prefix.pch";
@@ -623,6 +628,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Tailgate;
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -638,6 +644,7 @@
 					/Users/maxcon9/Downloads,
 					"/Users/maxcon9/Downloads/GoogleMaps-iOS-1.9.2",
 					"/Users/maxcon4/Downloads/GoogleMaps-iOS-1.9.2",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Taligate/Taligate-Prefix.pch";
@@ -646,6 +653,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Tailgate;
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

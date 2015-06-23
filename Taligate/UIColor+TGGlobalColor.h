@@ -13,5 +13,7 @@
 +(UIColor *)MapButtonColor;
 +(UIColor *) ClearColor;
 +(UIColor *) LabelWhiteColor;
-
++(UIColor *) AlphaBackground;
++(UIColor *) BlackColor;
++(UIColor *) MapSaveBackgroundColor;
 @end

@@ -22,4 +22,16 @@
 {
     return [UIColor whiteColor];
 }
++(UIColor *) AlphaBackground
+{
+    return [UIColor colorWithRed:(0.0f / 255.0f) green:(0.0f / 255.0f) blue:(0.0f / 255.0f) alpha:0.6f];
+}
++(UIColor *) BlackColor
+{
+    return [UIColor blackColor];
+}
++(UIColor *) MapSaveBackgroundColor
+{
+    return [UIColor colorWithRed:(232.0f / 255.0f) green:(228.0f / 255.0f) blue:(220.0f / 255.0f) alpha:1.0f];
+}
 @end

@@ -11,7 +11,7 @@
 #import <CoreLocation/CoreLocation.h>
 @interface TGSelectVenueViewController : UIViewController<UIPickerViewDataSource,UIPickerViewDelegate,CLLocationManagerDelegate,TGGlobal,UIActionSheetDelegate>
 {
-    NSString *VenueString;
+    NSString *VenueString, *locId;
     CLLocationManager *locationManager;
     float latitude;
     float longitude;
@@ -19,6 +19,7 @@
     NSMutableDictionary *Locationdict;
     int data;
     UIActionSheet *SettingsPopUp;
+    NSString *Type;
 }
 @property (strong, nonatomic) IBOutlet UIView *MainView;
 @property (retain, nonatomic) IBOutlet UIPickerView *VenuePicker;

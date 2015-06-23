@@ -28,4 +28,6 @@
 @property(nonatomic)UILabel *ButtonLabel;
 @property(nonatomic)UITextView *DescriptionText;
 @property(nonatomic)UIImageView *backview;
+@property(nonatomic)UIButton *submitButton;
+@property(nonatomic)UIView *BackPopupView;
 @end

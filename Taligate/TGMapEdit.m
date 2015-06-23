@@ -12,6 +12,8 @@
 @synthesize ButtonLabel =_ButtonLabel;
 @synthesize DescriptionText =_DescriptionText;
 @synthesize backview = _backview;
+@synthesize submitButton = SubmitButton;
+@synthesize BackPopupView = _BackPopupView;
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
@@ -55,11 +57,25 @@
 //        [BackSubPopView setBackgroundColor:[UIColor clearColor]];
 //        [BackPopupView addSubview:BackSubPopView];
         
+//        --------Checkbox--------
+        
+//        _checkbox = [[UIButton alloc]initWithFrame:CGRectMake(25.0f, _ButtonLabel.frame.origin.y+10.0f, 10.0f, 10.0f)];
+//        [_checkbox setImage:[UIImage imageNamed:@"uncheck"] forState:UIControlStateNormal];
+//        [_checkbox addTarget:_delegate action:@selector(checkbox:) forControlEvents:UIControlEventTouchUpInside];
+//        [BackPopupView addSubview:_checkbox];
+        
+////        ---------TableView-----------
+//        
+//        _locationDataTableview = [[UITableView alloc]initWithFrame:CGRectMake(25,74,340,95)];
+//        _locationDataTableview.backgroundColor = [UIColor ClearColor];
+//        _locationDataTableview.delegate = self;
+//        [BackPopupView addSubview:_locationDataTableview];
+
         
         _DescriptionText = [[UITextView alloc]initWithFrame:CGRectMake(25,74,340,95)];
         _DescriptionText.font = [UIFont MapEditDescriptionLabel];
         _DescriptionText.backgroundColor = [UIColor ClearColor];
-        _DescriptionText.textColor = [UIColor LabelWhiteColor];
+        _DescriptionText.textColor = [UIColor MapButtonColor];
         _DescriptionText.scrollEnabled = YES;
         _DescriptionText.pagingEnabled = YES;
         _DescriptionText.editable = NO;
@@ -79,6 +95,7 @@
         SubmitButton = [[UIButton alloc]initWithFrame:CGRectMake(180, 175, 83.0f, 35)];
         [SubmitButton setBackgroundColor:[UIColor ClearColor]];
         [SubmitButton setBackgroundImage:[UIImage DoneImage] forState:UIControlStateNormal];
+        SubmitButton.alpha = 0.25f;
         [SubmitButton addTarget:_delegate action:@selector(Submit:) forControlEvents:UIControlEventTouchUpInside];
         [BackPopupView addSubview:SubmitButton];
         

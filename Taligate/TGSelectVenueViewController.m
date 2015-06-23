@@ -66,18 +66,26 @@
                 Locationdict = [[NSMutableDictionary alloc]init];
                 
                 [Locationdict setObject:[[LocationData objectAtIndex:data]objectForKey:@"name"] forKey:@"name"];
+               [Locationdict setObject:[[LocationData objectAtIndex:data] objectForKey:@"locid"] forKey:@"locid"];
                 [Locationdict setObject:[[LocationData objectAtIndex:data]objectForKey:@"latitude"] forKey:@"latitude"];
                 [Locationdict setObject:[[LocationData objectAtIndex:data]objectForKey:@"longitude"] forKey:@"longitude"];
+                [Locationdict setObject:[[LocationData objectAtIndex:data]objectForKey:@"type"] forKey:@"type"];
                 [_VenueArray addObject:Locationdict];
             }
+            
+            
+            NSLog(@"venue------------>%@",_VenueArray);
+            
             _VenuePicker.delegate = self;
             _VenuePicker.dataSource = self;
             _VenuePicker.transform = CGAffineTransformMakeScale(2, 2);
 
             [_VenuePicker selectRow:0 inComponent:0 animated:NO];
             VenueString = [[_VenueArray objectAtIndex:[_VenuePicker selectedRowInComponent:0]] objectForKey:@"name"];
+            locId = [[_VenueArray objectAtIndex:[_VenuePicker selectedRowInComponent:0]] objectForKey:@"locid"];
             latitude = [[[_VenueArray objectAtIndex:[_VenuePicker selectedRowInComponent:0]] objectForKey:@"latitude"] floatValue];
             longitude = [[[_VenueArray objectAtIndex:[_VenuePicker selectedRowInComponent:0]] objectForKey:@"longitude"] floatValue];
+            Type = [[_VenueArray objectAtIndex:[_VenuePicker selectedRowInComponent:0]] objectForKey:@"type"];
         }
         
     }];
@@ -118,8 +126,10 @@
 -(void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component
 {
     VenueString = [[_VenueArray objectAtIndex:[pickerView selectedRowInComponent:0]] objectForKey:@"name"];
-    latitude = [[[_VenueArray objectAtIndex:[_VenuePicker selectedRowInComponent:0]] objectForKey:@"latitude"] floatValue];
-    longitude = [[[_VenueArray objectAtIndex:[_VenuePicker selectedRowInComponent:0]] objectForKey:@"longitude"] floatValue];
+    locId = [[_VenueArray objectAtIndex:[pickerView selectedRowInComponent:0]]objectForKey:@"locid"];
+    latitude = [[[_VenueArray objectAtIndex:[pickerView selectedRowInComponent:0]] objectForKey:@"latitude"] floatValue];
+    longitude = [[[_VenueArray objectAtIndex:[pickerView selectedRowInComponent:0]] objectForKey:@"longitude"] floatValue];
+    Type = [[_VenueArray objectAtIndex:[_VenuePicker selectedRowInComponent:0]] objectForKey:@"type"];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -186,10 +196,15 @@
 }
 
 - (IBAction)venueselect:(UIButton *)sender {
+    
+    NSLog(@"location id------->%@",locId);
+    
     TGMapViewController *map = [[TGMapViewController alloc]init];
     [map setVenueName:VenueString];
+    [map setLocationId:locId];
     [map setLocationLattitude:latitude];
     [map setLocationLongitude:longitude];
+    [map setType:Type];
     [self.navigationController pushViewController:map animated:YES];
 }
 @end

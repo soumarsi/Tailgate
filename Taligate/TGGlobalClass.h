@@ -15,10 +15,12 @@
     NSMutableData *responseData;
     NSURLConnection *connection;
     NSUserDefaults *UserData;
+    
 }
 
 -(void)GlobalDict:(NSString *)parameter Withblock:(Urlresponceblock)responce;
+-(void)GlobalStringDict:(NSString *)parameter Globalstr:(NSString *)parametercheck Withblock:(Urlresponceblock)responce;
+-(NSDictionary *)saveStringDict:(NSString *)parameter savestr:(NSString *)parametercheck saveimagedata:(NSData *)imagedata;
 - (BOOL)connectedToNetwork;
 -(void)Userdict:(NSDictionary *)userdetails;
-
 @end
