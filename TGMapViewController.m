@@ -89,40 +89,40 @@
     
 //    ----------Already Saved Data--------
     
-    if (globalClass.connectedToNetwork == YES) {
-        
-        [globalClass GlobalDict:[NSString stringWithFormat:@"%@action.php?mode=orderList&located=true&locationId=%@",App_Domain_Url,self.locationId] Withblock:^(id result, NSError *error) {
-            
-            DebugLog(@"SAVED DATA RETURN DATA--------->%@",result);
-            
-            
-            if ([[result objectForKey:@"message"] isEqualToString:Norecordfound ]) {
-                
-                DebugLog(@"NO RECORD FOUND");
-                
-            }else{
-                
-                preDataArray = [result objectForKey:@"orderdata"];
-                
-                DebugLog(@"pREdATAaRRAY--------->%lu",(unsigned long)preDataArray.count);
-                
-                for (data = 0; data < preDataArray.count; data ++)
-                {
-                    preSavedDict = [[NSMutableDictionary alloc]init];
-
-                    [preSavedDict setObject:[[preDataArray objectAtIndex:data]objectForKey:@"event_date"] forKey:@"event_date"];
-                    [preSavedDict setObject:[[preDataArray objectAtIndex:data] objectForKey:@"lat"] forKey:@"lat"];
-                    [preSavedDict setObject:[[preDataArray objectAtIndex:data] objectForKey:@"long"] forKey:@"long"];
-                    [SavedDataArray addObject:preSavedDict];
-                }
-                
-                [self applymapview];
-                
-                
-            }
-            
-        }];
-    }
+//    if (globalClass.connectedToNetwork == YES) {
+//        
+//        [globalClass GlobalDict:[NSString stringWithFormat:@"%@action.php?mode=orderList&located=true&locationId=%@",App_Domain_Url,self.locationId] Withblock:^(id result, NSError *error) {
+//            
+//            DebugLog(@"SAVED DATA RETURN DATA--------->%@",result);
+//            
+//            
+//            if ([[result objectForKey:@"message"] isEqualToString:Norecordfound ]) {
+//                
+//                DebugLog(@"NO RECORD FOUND");
+//                
+//            }else{
+//                
+//                preDataArray = [result objectForKey:@"orderdata"];
+//                
+//                DebugLog(@"pREdATAaRRAY--------->%lu",(unsigned long)preDataArray.count);
+//                
+//                for (data = 0; data < preDataArray.count; data ++)
+//                {
+//                    preSavedDict = [[NSMutableDictionary alloc]init];
+//
+//                    [preSavedDict setObject:[[preDataArray objectAtIndex:data]objectForKey:@"event_date"] forKey:@"event_date"];
+//                    [preSavedDict setObject:[[preDataArray objectAtIndex:data] objectForKey:@"lat"] forKey:@"lat"];
+//                    [preSavedDict setObject:[[preDataArray objectAtIndex:data] objectForKey:@"long"] forKey:@"long"];
+//                    [SavedDataArray addObject:preSavedDict];
+//                }
+//                
+//                [self applymapview];
+//                
+//                
+//            }
+//            
+//        }];
+//    }
 
     
     
@@ -142,14 +142,39 @@
     SearchTextfield.layer.cornerRadius = 5.0f;
     //[HeaderView addSubview:SearchTextfield];
     
-    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:_LocationLattitude
-                                                            longitude:_LocationLongitude
+    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:22.5729964
+                                                            longitude:88.3637547
                                                                  zoom:16];
     mapView_ = [GMSMapView mapWithFrame:CGRectMake(0, 70, self.view.frame.size.width, self.view.frame.size.height) camera:camera];
     mapView_.myLocationEnabled = NO;
     mapView_.delegate = self;
     [BackGroundView addSubview: mapView_];
     mapView_.userInteractionEnabled = YES;
+    
+    
+    
+    GMSMutablePath *path = [GMSMutablePath path];
+    [path addLatitude:22.5729964 longitude:88.3637547];
+    [path addLatitude:22.5728457 longitude:88.36398369999999];
+    [path addLatitude:22.5731735 longitude:88.3642835];
+    
+    [path addLatitude:22.5729964 longitude:88.3637547];
+    [path addLatitude:22.5737492 longitude:88.36452109999999];
+    [path addLatitude:22.5731735 longitude:88.3642835];
+    
+    [path addLatitude:22.5727709 longitude:88.366969];
+    [path addLatitude:22.5727172 longitude:88.35100469999999];
+    [path addLatitude:22.5681484 longitude:88.34914909999999];
+    
+    [path addLatitude:22.5956405 longitude:88.26352059999999];
+    GMSPolyline *polyline = [GMSPolyline polylineWithPath:path];
+    polyline.strokeWidth = 10.f;
+    polyline.geodesic = YES;
+    polyline.map = mapView_;
+    
+    
+    
+    polyline.strokeColor = [UIColor blueColor];
     
     
     
